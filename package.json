@@ -1,0 +1,25 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "restful booker api test",
+  "main": "index.js",
+  "dependencies": {
+    "mocha": "^8.1.1",
+    "axios": "^0.20.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1"
+  },
+  "scripts": {
+    "test": "mocha \"src/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjvoong/restful-booker-api-test.git"
+  },
+  "author": "Chi Voong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjvoong/restful-booker-api-test/issues"
+  },
+  "homepage": "https://github.com/cjvoong/restful-booker-api-test#readme"
+}
